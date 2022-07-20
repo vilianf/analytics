@@ -44,7 +44,7 @@ FROM databt.food_inspections
 WHERE violstatus LIKE 'fail'
 AND businessname LIKE 'Subway';
 
-#Historico ao longo do tempo de INSPECOES com violacoes graves (***)
+#Historico ao longo do tempo de inspecoes com violacoes graves (***)
 SELECT  businessname,
 		DATE(STR_TO_DATE(violdttm, '%Y-%m-%d')) as Ano,
         COUNT(licenseno) OVER (PARTITION BY businessname ORDER BY DATE(STR_TO_DATE(violdttm, '%Y-%m-%d')))as Quantidade
