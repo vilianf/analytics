@@ -1,1 +1,1 @@
-Reposição com diferentes análises exploratórias, usando diferentes ferramentas de análise
+Repositório com diferentes análises exploratórias, usando diferentes ferramentas de análise
