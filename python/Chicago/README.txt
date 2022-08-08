@@ -1,4 +1,4 @@
-Dados de criminalidade de Chicago, a partir de 2001.
+Dados de acidentes de trânsito na cidade de Chicago
 
 Dados obtidos em:
-https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2
+https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if
