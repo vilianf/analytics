@@ -1,4 +1,4 @@
-Relação de colaboradores IBM. Análise de razões para saída da empresa.
+Relação de colaboradores IBM. Análise de razões para saída de colaboradores da empresa.
 
 
 Dados obtidos em:
