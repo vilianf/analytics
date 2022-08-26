@@ -1,4 +1,4 @@
-Registro de ocorrências aeronauticas entre 2010 e 2021
+Registro de ocorrências aeronauticas e análise exploratória entre 2010 e 2021.
 
 
 Dados obtidos em:
