@@ -1,4 +1,4 @@
-Registro de ocorrências aeronauticas entre 2010 e 2019.
+Registro de ocorrências aeronauticas e análise exploratória entre 2010 e 2019. 
 
 Dashboard:
 https://datastudio.google.com/s/ukw4i0KnG80
