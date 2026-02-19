@@ -5,5 +5,7 @@ Dados obtidos em:
 Relação de funcionarios municipais:
 https://data.boston.gov/dataset/employee-earnings-report
 
+
 Inspeções de estabelecimentos de alimentação:
 https://data.boston.gov/dataset/food-establishment-inspections
+
