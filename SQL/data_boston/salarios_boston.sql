@@ -25,7 +25,7 @@ GROUP BY 1
 HAVING Media > 1000
 ORDER BY 2 DESC;
 
-#Vencimento mais baixo, mais alto e Media do departametno de polícia (Juntando salario, horas extras e demais acrescimos)
+# Vencimento mais baixo, mais alto e Media do departametno de polícia (Juntando salario, horas extras e demais acrescimos)
 SELECT DEPARTMENT_NAME,
 	   ROUND(AVG(CAST(REPLACE(TOTAL_GROSS, ',', '') AS DECIMAL(10,2))), 2) as Media_Salarial,
        MIN(CAST(REPLACE(TOTAL_GROSS, ',', '') AS DECIMAL(10,2))) AS Piso_Rendimento,
@@ -34,7 +34,7 @@ FROM databt.salarios
 WHERE DEPARTMENT_NAME LIKE 'Boston Police Department'
 GROUP BY 1;
 
-#Piso, teto e media de rendimento dos professores
+# Piso, teto e media de rendimento dos professores
 SELECT TITLE,
 	   ROUND(AVG(CAST(REPLACE(TOTAL_GROSS, ',', '') AS DECIMAL(10,2))), 2) as Media_Salarial,
        MIN(CAST(REPLACE(TOTAL_GROSS, ',', '') AS DECIMAL(10,2))) AS Piso_Rendimento,
@@ -43,7 +43,7 @@ FROM databt.salarios
 WHERE TITLE LIKE 'Teacher'
 GROUP BY 1;
 
-#Media salarial por cargos que tenham mais de 20 pessoas
+# Media salarial por cargos que tenham mais de 20 pessoas
 SELECT resultado.TITLE,
 	   resultado.Quantidade,
        resultado.Media_Rendimento_Cargo
