@@ -1,6 +1,6 @@
 #Acidentes de helicoptero com fatalidades
 SELECT codigo_ocorrencia, 
-	ocorrencia_dia, 
+	   ocorrencia_dia, 
        aeronave_tipo_veiculo, 
        aeronave_fatalidades_total
 FROM cenipa.aeronave A, cenipa.ocorrencia O
@@ -10,7 +10,7 @@ AND A.aeronave_fatalidades_total > 0;
 
 #Acidentes com maior numero de fatalidades
 SELECT A.ocorrencia_dia,
-	B.aeronave_tipo_veiculo,
+	   B.aeronave_tipo_veiculo,
        B.aeronave_fatalidades_total
 FROM cenipa.ocorrencia A, cenipa.aeronave B
 WHERE A.codigo_ocorrencia = B.codigo_ocorrencia2
