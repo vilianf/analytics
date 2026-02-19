@@ -6,7 +6,7 @@ WHERE violstatus LIKE 'fail'
 GROUP BY 1
 ORDER BY 2 DESC;
 
-#Quais estabelecimentos com mais violacoes graves *** ?
+# Quais estabelecimentos com mais violacoes graves *** ?
 SELECT  businessname,
         COUNT(licenseno) as Quantidade
 FROM databt.food_inspections
@@ -14,7 +14,7 @@ WHERE viollevel LIKE '***'
 GROUP BY 1
 ORDER BY 2 DESC;
 
-#Quantas violacoes mais graves *** ocorreram por ano?
+# Quantas violacoes mais graves *** ocorreram por ano?
 SELECT  YEAR(STR_TO_DATE(violdttm, '%Y-%m-%d')) as Ano,
         COUNT(licenseno) as Quantidade
 FROM databt.food_inspections
