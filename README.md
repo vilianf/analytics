@@ -1,1 +1,1 @@
-Repositório com diferentes análises exploratórias, usando diferentes ferramentas de análise. Iniciando carreira na área de dados
+Repositório com diferentes análises exploratórias, usando diferentes ferramentas de análise. Objetivo de iniciar carreira na área de dados do banrisul
